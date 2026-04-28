@@ -183,12 +183,4 @@ function split(inputstr, sep)
   return t
 end
 
-function arrayModulo(val, maxVal)
-    local modVal = val % maxVal
-    if (modVal == 0) then
-        return maxVal
-    end
-    return modVal
-end
-
 start()

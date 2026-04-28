@@ -38,7 +38,7 @@ end
 function arrayModulo(val, maxVal)
     local modVal = val % maxVal
     if (modVal == 0) then
-        return 5
+        return maxVal
     end
     return modVal
 end
